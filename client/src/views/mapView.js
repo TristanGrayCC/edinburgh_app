@@ -138,14 +138,6 @@ MapView.prototype = {
     };
   },
 
-  // addToFavourites: function(place){
-  //   var favItems = new FavItems();
-  //   var callback = function(place){
-  //     console.log("callback");
-  //   };
-  //   favItems.post(callback, place);
-  // }
-
   updateItemTrue: function(deleteID){
     var mapItems = new MapItems();
     var callback = function(result){
